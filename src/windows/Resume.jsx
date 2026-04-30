@@ -27,7 +27,7 @@ const Resume = () => {
         </a>
       </div>
 
-      <Document file="https://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf">
+      <Document file="/resume.pdf">
         <Page pageNumber={1} renderTextLayer renderAnnotationLayer />
       </Document>
     </>
