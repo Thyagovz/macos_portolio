@@ -265,14 +265,16 @@ body {
         }
 
         .gallery {
-            @apply p-5;
+            @apply p-5 max-h-[500px] overflow-auto;
 
             ul {
                 @apply grid grid-cols-5 grid-rows-5 gap-2.5;
 
                 li {
+                    @apply w-full h-full overflow-hidden;
+
                     img {
-                        @apply size-full object-cover rounded-lg;
+                        @apply w-full h-full object-cover rounded-lg;
                     }
 
                     &:first-child {
